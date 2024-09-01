@@ -1,6 +1,3 @@
-@import url('./1-timer.css');
-@import url('./2-snackbar.css');
-/* 
 * {
   box-sizing: border-box;
 }
@@ -10,9 +7,9 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
   list-style-type: none;
-} */
+}
 
-/* body {
+body {
   display: flex;
   flex-wrap: wrap;
   gap: 32px 8px;
@@ -86,15 +83,6 @@ input:disabled {
   background: #fafafa;
 }
 
-.field label {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-}
-
 button {
   font-family: var(--font-family);
   font-weight: 500;
@@ -119,37 +107,3 @@ button:disabled {
   background: #cfcfcf;
   color: #989898;
 }
-
-.form {
-  display: flex;
-  flex-direction: column;
-  background: #fff;
-}
-
-button[type='submit'] {
-  width: 360px;
-  margin-top: 24px;
-}
-
-legend {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  color: #2e2f42;
-}
-
-fieldset {
-  display: flex;
-  gap: 48px;
-  border-radius: 4px;
-  stroke-width: 1px;
-  stroke: #808080;
-  width: 360px;
-}
-
-fieldset label {
-  display: flex;
-  align-items: center;
-} */
